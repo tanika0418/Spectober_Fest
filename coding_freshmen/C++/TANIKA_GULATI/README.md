@@ -26,7 +26,7 @@ Time Complexity -> O(n)
 Space Complexity -> O(1)
 
 
-# Problem 2: ROMAN_TO_DECIMAL
+# Problem 3: ROMAN_TO_DECIMAL
 Given a roman numeral, convert it to an integer
 
 # Problem Explanation 🚀
@@ -37,4 +37,18 @@ Approach: Using hashmap, which maps keys to values forming a pair. In this case 
 
 # Time Complexity and Space Complexity
 Time Complexity -> O(n)
+Space Complexity -> O(1)
+
+
+# Problem 4: ANAGRAMS
+Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+
+# Problem Explanation 🚀
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+
+# Your logic 🤯
+Approach: Brute force, i.e, by comparing each character of 1st string to each character of 2nd string. If each character of 1st string is present in the 2nd string exactly once, the strings are anagram otherwise false.
+
+# Time Complexity and Space Complexity
+Time Complexity -> O(n^2)
 Space Complexity -> O(1)
